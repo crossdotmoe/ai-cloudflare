@@ -60,7 +60,7 @@ export const Sidebar = () => {
             <Image fill alt="Logo" src="/logo.svg" sizes="100vw,50vw" />
           </div>
           <h1 className={cn("text-2xl font-bold text-black", poppins.className)}>
-            Infinite AI
+            Cross AI
           </h1>
         </Link>
         <div className="space-y-1">

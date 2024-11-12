@@ -67,7 +67,7 @@ const ImagePage = () => {
 		<div>
 			<Heading
 				title="Image Generation"
-				description="Turn your prompt into an image with cloudflare's open models."
+				description="Turn your prompt into an image."
 				icon={ImageIcon}
 				iconColor="text-pink-700"
 				bgColor="bg-pink-700/10"

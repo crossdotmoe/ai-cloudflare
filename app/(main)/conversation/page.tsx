@@ -67,7 +67,7 @@ const ConversationPage = () => {
 		<div>
 			<Heading
 				title="Conversation"
-				description="Cloudflare's most advanced conversation model."
+				description="Cross's most advanced conversation model."
 				icon={MessageSquare}
 				iconColor="text-violet-500"
 				bgColor="bg-violet-500/10"
@@ -98,7 +98,7 @@ const ConversationPage = () => {
 											<Input
 												className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
 												disabled={isLoading}
-												placeholder="What id the radius of Earth?"
+												placeholder="What is the radius of Earth?"
 												{...field}
 											/>
 										</FormControl>

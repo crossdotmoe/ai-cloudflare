@@ -6,8 +6,8 @@ import { ToasterProvider } from '@/components/toaster-provider'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Infinite AI",
-  description: "Infinite Ai is a platform that can generate images, code, translation and chat with cloudflare's open models.",
+  title: "Cross AI",
+  description: "Cross Ai is a platform that can generate images, code, translation and chat with open models.",
 };
 
 export default function RootLayout({

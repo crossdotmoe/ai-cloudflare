@@ -88,7 +88,7 @@ const SummaryPage = () => {
 										<Textarea
 											className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
 											disabled={isLoading}
-											placeholder="Summarize a long text with Cloudflare's Open AI models"
+											placeholder="Summarize a long text with cross ai"
 											{...field}
 										/>
 									</FormControl>
