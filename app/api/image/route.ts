@@ -11,7 +11,7 @@ export async function POST(req: Request) {
 			return new NextResponse("Prompt is required", { status: 400 });
 		}
 		const response = await fetch(
-			`https://api.cloudflare.com/client/v4/accounts/${process.env.CLOUDFLARE_ACCOUNT_ID}/ai/run/@cf/black-forest-labs/flux-1-schnell`,
+			`https://api.cloudflare.com/client/v4/accounts/${process.env.CLOUDFLARE_ACCOUNT_ID}/ai/run/@cf/runwayml/stable-diffusion-v1-5-img2img`,
 			{
 				method: "POST",
 				headers: {
